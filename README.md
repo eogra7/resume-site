@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Evan Ogra - Resume Website
 
-## Getting Started
+A clean, responsive, and professional resume website built with HTML and CSS.
 
-First, run the development server:
+## Features
 
+- 🎨 Modern, clean design with a professional color scheme
+- 📱 Fully responsive layout that works on all devices
+- ⚡ Fast loading with no JavaScript dependencies
+- 🎯 Clear content hierarchy and organization
+- 🖼️ Beautiful typography using Inter font
+- 🌈 Subtle animations and hover effects
+- 📄 Sections for:
+  - Professional Experience
+  - Technical Skills
+  - Education
+  - Awards & Honors
+  - Contact Information
+
+## Quick Start
+
+1. Clone this repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd resume-site
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Start the local server:
+```bash
+python3 server.py
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Open your browser and visit:
+```
+http://localhost:8000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+resume-site/
+├── index.html          # Main HTML file
+├── styles.css          # CSS styles
+├── server.py          # Python HTTP server
+└── README.md          # This file
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website is built with vanilla HTML and CSS, making it:
+- Easy to modify
+- Fast to load
+- Simple to maintain
+- No build process required
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Customization
 
-## Deploy on Vercel
+To modify the content:
+1. Edit `index.html` for structure and content
+2. Edit `styles.css` for styling and layout
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Local Development Server
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The included Python server (`server.py`) provides:
+- Local development environment
+- CORS headers enabled
+- Cache control for development
+- Runs on port 8000
+
+To stop the server, press `Ctrl+C` in the terminal.
+
+## Browser Support
+
+The website is compatible with all modern browsers:
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+## License
+
+This project is open source and available under the MIT License. 
